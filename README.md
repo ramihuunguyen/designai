@@ -1,13 +1,18 @@
 # designai
 Welcome to RAMI's design world. Let's start build ai agent one step at a time.
 
-Try all the best using my own code.
+Packages: CrewAI + API Tools
 
-#Steps taken 
+1. TripAgent: 
 
-1. Install conda enviroment with python 3.11.
-2. Use uv to install all packages
+Input: "Select the best place in Singapore".
 
-- uv pip install crewai
+- First, My research agent first performs a search and produce two research result. 
 
-- uv pip install langchain-openai
+- Second, my scrape agent reviews results from the previous taks, and pick the most relevant content.
+
+- Third, my scrape agent gives the name of the place + when to go + with 100 words only.
+
+View my code under src/tripagent. 
+
+Have fun! From Rami.

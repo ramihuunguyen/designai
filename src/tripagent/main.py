@@ -32,7 +32,7 @@ boston_trip_crew = Crew(
 
 if __name__ == "__main__":
 
-    print("## Welcome to the Boston Trip Planning Crew ##")
+    print("## Welcome to the Singapore Trip Planning Crew ##")
     print("-----------------------------------------------")
 
     result = boston_trip_crew.kickoff()
